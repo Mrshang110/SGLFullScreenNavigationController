@@ -1,0 +1,2 @@
+# SGLFullScreenNavigationController
+实现全屏右滑返回
