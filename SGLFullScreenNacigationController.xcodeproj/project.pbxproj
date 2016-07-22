@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56BB869F1D423CB700143832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB869E1D423CB700143832 /* main.m */; };
+		566973901D42426200992AF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669738F1D42426200992AF6 /* main.m */; };
 		56BB86AA1D423CB700143832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BB86A91D423CB700143832 /* Assets.xcassets */; };
 		56BB86AD1D423CB700143832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BB86AB1D423CB700143832 /* LaunchScreen.storyboard */; };
-		56BB86BB1D423CDC00143832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86B41D423CDC00143832 /* AppDelegate.m */; };
-		56BB86BC1D423CDC00143832 /* SGLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86B61D423CDC00143832 /* SGLFirstViewController.m */; };
-		56BB86BD1D423CDC00143832 /* SGLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86B71D423CDC00143832 /* SGLSecondViewController.m */; };
-		56BB86BE1D423CDC00143832 /* SGLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86B81D423CDC00143832 /* SGLNavigationViewController.m */; };
+		56BB86CA1D42417D00143832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86C11D42417D00143832 /* AppDelegate.m */; };
+		56BB86CB1D42417D00143832 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56BB86C21D42417D00143832 /* Info.plist */; };
+		56BB86CD1D42417D00143832 /* SGLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86C51D42417D00143832 /* SGLFirstViewController.m */; };
+		56BB86CE1D42417D00143832 /* SGLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86C71D42417D00143832 /* SGLNavigationViewController.m */; };
+		56BB86CF1D42417D00143832 /* SGLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BB86C91D42417D00143832 /* SGLSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5669738F1D42426200992AF6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56BB869A1D423CB700143832 /* SGLFullScreenNacigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGLFullScreenNacigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		56BB869E1D423CB700143832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		56BB86A01D423CB700143832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		56BB86A91D423CB700143832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56BB86AC1D423CB700143832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56BB86AE1D423CB800143832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56BB86B41D423CDC00143832 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../SGLNavigationController/SGLNavigationController/AppDelegate.m; sourceTree = "<group>"; };
-		56BB86B51D423CDC00143832 /* SGLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGLFirstViewController.h; path = ../../SGLNavigationController/SGLNavigationController/SGLFirstViewController.h; sourceTree = "<group>"; };
-		56BB86B61D423CDC00143832 /* SGLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGLFirstViewController.m; path = ../../SGLNavigationController/SGLNavigationController/SGLFirstViewController.m; sourceTree = "<group>"; };
-		56BB86B71D423CDC00143832 /* SGLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGLSecondViewController.m; path = ../../SGLNavigationController/SGLNavigationController/SGLSecondViewController.m; sourceTree = "<group>"; };
-		56BB86B81D423CDC00143832 /* SGLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGLNavigationViewController.m; path = ../../SGLNavigationController/SGLNavigationController/SGLNavigationViewController.m; sourceTree = "<group>"; };
-		56BB86B91D423CDC00143832 /* SGLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGLSecondViewController.h; path = ../../SGLNavigationController/SGLNavigationController/SGLSecondViewController.h; sourceTree = "<group>"; };
-		56BB86BA1D423CDC00143832 /* SGLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGLNavigationViewController.h; path = ../../SGLNavigationController/SGLNavigationController/SGLNavigationViewController.h; sourceTree = "<group>"; };
+		56BB86C01D42417D00143832 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56BB86C11D42417D00143832 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56BB86C21D42417D00143832 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56BB86C41D42417D00143832 /* SGLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLFirstViewController.h; sourceTree = "<group>"; };
+		56BB86C51D42417D00143832 /* SGLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLFirstViewController.m; sourceTree = "<group>"; };
+		56BB86C61D42417D00143832 /* SGLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLNavigationViewController.h; sourceTree = "<group>"; };
+		56BB86C71D42417D00143832 /* SGLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLNavigationViewController.m; sourceTree = "<group>"; };
+		56BB86C81D42417D00143832 /* SGLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLSecondViewController.h; sourceTree = "<group>"; };
+		56BB86C91D42417D00143832 /* SGLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +64,15 @@
 		56BB869C1D423CB700143832 /* SGLFullScreenNacigationController */ = {
 			isa = PBXGroup;
 			children = (
-				56BB86A01D423CB700143832 /* AppDelegate.h */,
-				56BB86B41D423CDC00143832 /* AppDelegate.m */,
-				56BB86B51D423CDC00143832 /* SGLFirstViewController.h */,
-				56BB86B61D423CDC00143832 /* SGLFirstViewController.m */,
-				56BB86B71D423CDC00143832 /* SGLSecondViewController.m */,
-				56BB86B81D423CDC00143832 /* SGLNavigationViewController.m */,
-				56BB86B91D423CDC00143832 /* SGLSecondViewController.h */,
-				56BB86BA1D423CDC00143832 /* SGLNavigationViewController.h */,
+				56BB86C01D42417D00143832 /* AppDelegate.h */,
+				56BB86C11D42417D00143832 /* AppDelegate.m */,
+				56BB86C21D42417D00143832 /* Info.plist */,
+				56BB86C41D42417D00143832 /* SGLFirstViewController.h */,
+				56BB86C51D42417D00143832 /* SGLFirstViewController.m */,
+				56BB86C61D42417D00143832 /* SGLNavigationViewController.h */,
+				56BB86C71D42417D00143832 /* SGLNavigationViewController.m */,
+				56BB86C81D42417D00143832 /* SGLSecondViewController.h */,
+				56BB86C91D42417D00143832 /* SGLSecondViewController.m */,
 				56BB86A91D423CB700143832 /* Assets.xcassets */,
 				56BB86AB1D423CB700143832 /* LaunchScreen.storyboard */,
 				56BB86AE1D423CB800143832 /* Info.plist */,
@@ -81,7 +84,7 @@
 		56BB869D1D423CB700143832 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				56BB869E1D423CB700143832 /* main.m */,
+				5669738F1D42426200992AF6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				56BB86AD1D423CB700143832 /* LaunchScreen.storyboard in Resources */,
 				56BB86AA1D423CB700143832 /* Assets.xcassets in Resources */,
+				56BB86CB1D42417D00143832 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,11 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BB86BC1D423CDC00143832 /* SGLFirstViewController.m in Sources */,
-				56BB86BE1D423CDC00143832 /* SGLNavigationViewController.m in Sources */,
-				56BB869F1D423CB700143832 /* main.m in Sources */,
-				56BB86BB1D423CDC00143832 /* AppDelegate.m in Sources */,
-				56BB86BD1D423CDC00143832 /* SGLSecondViewController.m in Sources */,
+				566973901D42426200992AF6 /* main.m in Sources */,
+				56BB86CE1D42417D00143832 /* SGLNavigationViewController.m in Sources */,
+				56BB86CD1D42417D00143832 /* SGLFirstViewController.m in Sources */,
+				56BB86CA1D42417D00143832 /* AppDelegate.m in Sources */,
+				56BB86CF1D42417D00143832 /* SGLSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				56BB86B31D423CB800143832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
