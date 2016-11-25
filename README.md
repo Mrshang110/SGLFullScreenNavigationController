@@ -117,4 +117,4 @@ SEL handler = NSSelectorFromString(@"handleNavigationTransition:");
 如果需要自定制导航时,实现是写在UINavigationController子类中,比较方便.如果不需要,可以单独写一个分类.这里写在GLNavigationController中,其中GLNavigationController.h继承自UINavigationController.
 
 ####其他提示
-***如果你的导航在不同控制器间有隐藏状态栏的话,隐藏方法需要使用带有animated:参数的方法setNavigationBarHidden: animated:,否则过渡会出问题.
+***如果你的导航在不同控制器间有隐藏状态栏的话,隐藏方法需要使用带有animated:参数的方法setNavigationBarHidden: animated:,否则过渡会出问题.***
