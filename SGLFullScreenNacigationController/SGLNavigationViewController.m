@@ -34,7 +34,13 @@
 }
 
 //  防止导航控制器只有一个rootViewcontroller时触发手势
-- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+- (BOOL)gestureRecognizerShouldBegin:(UIPanGestureRecognizer *)gestureRecognizer {
+    // 解决右滑和UITableView左滑删除的冲突
+    CGPoint translation = [gestureRecognizer translationInView:gestureRecognizer.view];
+    if (translation.x <= 0) {
+        return NO;
+    }
+
     return self.childViewControllers.count == 1 ? NO : YES;
 }
 
