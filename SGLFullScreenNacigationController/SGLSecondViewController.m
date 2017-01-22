@@ -7,6 +7,7 @@
 //
 
 #import "SGLSecondViewController.h"
+#import "SGLNavigationViewController.h"
 
 @interface SGLSecondViewController ()
 
@@ -19,6 +20,9 @@
     
     self.view.backgroundColor = [UIColor greenColor];
     self.title = @"第二页";
+    
+//    SGLNavigationViewController *navigationViewController = (SGLNavigationViewController *)self.navigationController;
+//    [navigationViewController addFullScreenPopBlackListItem:self];
 }
 
 - (void)didReceiveMemoryWarning {
