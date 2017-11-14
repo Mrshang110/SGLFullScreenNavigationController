@@ -67,7 +67,11 @@
             return NO;
         }
     }
-
+    
+    if ([[self valueForKey:@"_isTransitioning"] boolValue]) {
+        return NO;
+    }
+    
     // 解决右滑和UITableView左滑删除的冲突
     CGPoint translation = [gestureRecognizer translationInView:gestureRecognizer.view];
     if (translation.x <= 0) {
